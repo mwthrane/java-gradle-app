@@ -5,7 +5,9 @@
 <details>
 <summary>Exercise 0: Clone project and create own Git repository </summary>
  <br />
+
 **steps:**
+
 ```sh
 
 # clone repository & change into project dir
@@ -33,7 +35,9 @@ git push -u origin master
  <br />
 
 **steps**
+
 ```sh
+
 ./gradlew build
 
 ```
