@@ -110,7 +110,7 @@ try {
 # rebuild the jar file 
 ./gradlew build
 
-# run application with any 2 parameters
+# run application with ANY 2 parameters
 java -jar bootcamp-java-project-1.0-SNAPSHOT.jar myname mylastname
 
 ```
