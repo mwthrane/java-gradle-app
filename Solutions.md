@@ -9,7 +9,6 @@
 **steps:**
 
 ```sh
-
 # clone repository & change into project dir
 git clone git@gitlab.com:devops-bootcamp3/java-gradle-app.git
 cd java-gradle-app
@@ -37,7 +36,6 @@ git push -u origin master
 **steps**
 
 ```sh
-
 ./gradlew build
 
 ```
@@ -52,7 +50,6 @@ git push -u origin master
 
 **steps:**
 ```sh
-
 # locate AppTest.java file in src/test/java folder, line 22 & fix test
 boolean result = myApp.getCondition(true); 
 
@@ -71,7 +68,6 @@ boolean result = myApp.getCondition(true);
 
 **steps:**
 ```sh
-
 ./gradlew clean 
 ./gradlew build
 
@@ -87,7 +83,6 @@ boolean result = myApp.getCondition(true);
 
 **steps:**
 ```sh
-
 java -jar bootcamp-java-project-1.0-SNAPSHOT.jar
 
 ```
@@ -102,7 +97,6 @@ java -jar bootcamp-java-project-1.0-SNAPSHOT.jar
 
 **steps:**
 ```sh
-
 # add parameter input to the Java code, in Application.java, on line 16
 Logger log = LoggerFactory.getLogger(Application.class); 
 try { 
